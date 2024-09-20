@@ -3,55 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|c:\\users\\ahmed\\desktop\\signalr\\signalr\\signalr\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|solutionrelative:signalr\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|c:\\users\\ahmed\\desktop\\signalr\\signalr\\signalr\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|solutionrelative:signalr\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|c:\\users\\ahmed\\desktop\\signalr\\signalr\\signalr\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|solutionrelative:signalr\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|c:\\users\\ahmed\\desktop\\signalr\\signalr\\signalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|solutionrelative:signalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|c:\\users\\ahmed\\desktop\\signalr\\signalr\\signalr\\data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|solutionrelative:signalr\\data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|c:\\users\\ahmed\\desktop\\signalr\\signalr\\signalr\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|solutionrelative:signalr\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Migrations\\20240824180614_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SignalR\\Migrations\\20240824180614_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|c:\\users\\ahmed\\desktop\\signalr\\signalr\\signalr\\models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|solutionrelative:signalr\\models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|c:\\users\\ahmed\\desktop\\signalr\\signalr\\signalr\\controllers\\onlineusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|solutionrelative:signalr\\controllers\\onlineusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|c:\\users\\ahmed\\desktop\\signalr\\signalr\\signalr\\views\\onlineuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|solutionrelative:signalr\\views\\onlineuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|c:\\users\\ahmed\\desktop\\signalr\\signalr\\signalr\\hubs\\onlineuserhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|solutionrelative:signalr\\hubs\\onlineuserhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./aspnet_SignalR_4491aa0c_1c33_4e93_9450_3b82a0adeaf9/True/SqlTable/dbo.Connections.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|c:\\users\\ahmed\\desktop\\signalr\\signalr\\signalr\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|solutionrelative:signalr\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|c:\\users\\ahmed\\desktop\\signalr\\signalr\\signalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AD5674-9379-495D-8019-F06FABB77AFC}|SignalR\\SignalR.csproj|solutionrelative:signalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,177 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "SignalR\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeToolTip": "SignalR\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwBoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:41:41.255Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "SignalR\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "SignalR\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwBwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:04:11.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "OnlineUserController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Controllers\\OnlineUserController.cs",
               "RelativeDocumentMoniker": "SignalR\\Controllers\\OnlineUserController.cs",
               "ToolTip": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Controllers\\OnlineUserController.cs",
               "RelativeToolTip": "SignalR\\Controllers\\OnlineUserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T16:59:58.256Z",
+              "WhenOpened": "2024-09-11T19:25:21.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Program.cs",
               "RelativeDocumentMoniker": "SignalR\\Program.cs",
               "ToolTip": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Program.cs",
               "RelativeToolTip": "SignalR\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T17:38:54.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "SignalR\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "SignalR\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswJEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:04:12.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Views\\OnlineUser\\Index.cshtml",
-              "RelativeDocumentMoniker": "SignalR\\Views\\OnlineUser\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Views\\OnlineUser\\Index.cshtml",
-              "RelativeToolTip": "SignalR\\Views\\OnlineUser\\Index.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAwwEAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-24T17:09:14.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserConnection.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Models\\UserConnection.cs",
-              "RelativeDocumentMoniker": "SignalR\\Models\\UserConnection.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Models\\UserConnection.cs",
-              "RelativeToolTip": "SignalR\\Models\\UserConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:09:20.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Data\\AppUser.cs",
-              "RelativeDocumentMoniker": "SignalR\\Data\\AppUser.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Data\\AppUser.cs",
-              "RelativeToolTip": "SignalR\\Data\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:08:17.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20240824180614_init.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Migrations\\20240824180614_init.cs",
-              "RelativeDocumentMoniker": "SignalR\\Migrations\\20240824180614_init.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Migrations\\20240824180614_init.cs",
-              "RelativeToolTip": "SignalR\\Migrations\\20240824180614_init.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:06:14.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SignalR\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SignalR\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:03:36.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "dbo.Connections [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/./aspnet_SignalR_4491aa0c_1c33_4e93_9450_3b82a0adeaf9/True/SqlTable/dbo.Connections.sql",
-              "ToolTip": "dbo.Connections [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-24T16:57:26.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OnlineUserHub.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Hubs\\OnlineUserHub.cs",
-              "RelativeDocumentMoniker": "SignalR\\Hubs\\OnlineUserHub.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Hubs\\OnlineUserHub.cs",
-              "RelativeToolTip": "SignalR\\Hubs\\OnlineUserHub.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAtwBoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T16:23:59.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SignalR\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\SignalR\\SignalR\\SignalR\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SignalR\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAwDMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-24T17:19:47.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T19:22:27.246Z"
             }
           ]
         }

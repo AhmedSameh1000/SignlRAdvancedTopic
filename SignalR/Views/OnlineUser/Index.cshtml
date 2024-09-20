@@ -14,7 +14,33 @@
         </tbody>
     </table>
 </div>
+<script>
 
+    function logOutUser(userId) {
+        console.log(userId)
+        fetch(`/OnlineUser/logoutUser?userId=${userId}`, {
+            method: 'POST', // Changed to POST for logout
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('Logout successful:', data);
+                // Optionally, remove the user from the table or update UI
+            })
+            .catch(error => {
+                console.error('Logout error:', error);
+            });
+    }
+
+
+</script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
 
@@ -33,7 +59,7 @@
                         row.innerHTML = `<td>${user.userName}</td>
                          <td>${user.email}</td>
                          <td>${isOnlineStatus}</td>
-                                     <td><button class="btn btn-primary" onclick="logOutUser(${user.userId})">Log out</button></td>`;
+                                     <td><button class="btn btn-primary" onclick="logOutUser('${user.userId}')">Log out</button></td>`;
 
                         tbody.appendChild(row);
                     });
@@ -61,23 +87,6 @@
             })
             .catch(err => console.error('SignalR connection error:', err));
 
-        function logOutUser(userId) {
-            fetch(`/OnlineUser/logoutUser/${userId}`, { // Ensure this path is correct
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            })
-                .then(response => response.json())
-                .then(data => {
-                    console.log('Logout successful:', data);
-                    // Optionally, remove the user from the table or update UI
-                })
-                .catch(error => {
-                    console.error('Logout error:', error);
-                });
-        }
-       
 
     });
 

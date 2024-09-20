@@ -38,6 +38,8 @@ namespace SignalR.Hubs
             }
              await base.OnConnectedAsync();
         }
+
+     
         public override async Task OnDisconnectedAsync(Exception? exception)
         {
             var userId = Context.User?.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;

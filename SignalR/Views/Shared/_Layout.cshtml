@@ -1,4 +1,26 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@using SignalR.Data
+@inject ApplicationDbContext AppContext
+@inject UserManager<AppUser> UserManger
+@inject SignInManager<AppUser> SignInManager
+
+@{
+    var userId = Context.User?.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+    var CurrentLoggedInUser=  AppContext.Users.FirstOrDefault(c => c.Id == userId);
+
+    if (CurrentLoggedInUser != null)
+    {
+        var ChangedGuid = Context.User?.FindFirst("ChnagedGuid")?.Value;
+
+        if (ChangedGuid != CurrentLoggedInUser?.ChnagedGuid.ToString())
+        {
+            await SignInManager.SignOutAsync();
+        }
+    }
+}
+
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -34,6 +56,11 @@
             </div>
         </nav>
     </header>
+   
+
+        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button id="logoutButton" style="display: none;">Log Out</button>
+        </form>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -57,6 +84,14 @@
     const connection = new signalR.HubConnectionBuilder()
     .withUrl("/onlineusers")
     .build();
+
+          connection.on("LogOutThisUser", function (LogedOut) {
+                if (LogedOut) {
+                    var button = document.getElementById("logoutButton");
+                     button.click(); 
+                }
+            });
+
     connection.start().catch(function (err) {
         return console.error(err.toString());
     });

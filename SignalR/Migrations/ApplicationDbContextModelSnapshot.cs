@@ -245,7 +245,7 @@ namespace SignalR.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Connections");
+                    b.ToTable("Connections", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

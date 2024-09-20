@@ -1,17 +1,21 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using SignalR.Data;
+using SignalR.Hubs;
 
 namespace SignalR.Controllers
 {
     public class OnlineUserController : Controller
     {
         private readonly ApplicationDbContext applicationDbContext;
+        private readonly IHubContext<OnlineUserHub> hubContext;
 
-        public OnlineUserController(ApplicationDbContext applicationDbContext)
+        public OnlineUserController(ApplicationDbContext applicationDbContext, IHubContext<OnlineUserHub> hubContext)
         {
             this.applicationDbContext = applicationDbContext;
+            this.hubContext = hubContext;
         }
         public  IActionResult Index()
         {       
@@ -35,9 +39,22 @@ namespace SignalR.Controllers
         }
 
 
-        public async Task<IActionResult> logoutUser(string userId)
+       
+        public async Task<IActionResult> logoutUser([FromQuery]string userId)
         {
-            await Task.CompletedTask;
+            
+            var user = await applicationDbContext.Users.FirstOrDefaultAsync(c => c.Id == userId);
+
+
+            if (user!=null)
+            {
+                user.ChnagedGuid = Guid.NewGuid();
+                applicationDbContext.Users.Update(user);
+                await applicationDbContext.SaveChangesAsync();
+            }
+            var AllConnectionStringsForThisUser = await applicationDbContext.Connections
+                .Where(c => c.userId == userId).Select(c => c.ConnectionId).ToListAsync();
+            await hubContext.Clients.Clients(AllConnectionStringsForThisUser).SendAsync("LogOutThisUser", true);
             return Ok();
         }
     }
